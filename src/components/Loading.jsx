@@ -7,7 +7,14 @@ import React from 'react'
 
 const Loading = () => {
   return (
-    <h1>Loading...</h1>
+    <div>
+ <h1>Loading...7777</h1>
+ <h2>Por favor activa tu Geolocalizacion 🆗</h2>
+ 
+
+    </div>
+   
+    
   )
 }
 
