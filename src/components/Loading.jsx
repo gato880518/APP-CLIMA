@@ -9,7 +9,7 @@ const Loading = () => {
   return (
     <div>
  <h1>Loading...</h1>
- <h2>Por favor activa tu Geolocalizacion 🆗</h2>
+ <h3>Para inicar activa tu Geolocalizacion</h3>
  
 
     </div>
