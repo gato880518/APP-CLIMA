@@ -1,0 +1,107 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    background-color: #48B6B4;
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1f);
+}
+
+.card__header,
+.card__footer,
+.card__temp {
+    grid-column: span 2;
+}
+
+
+.card__title {
+    text-align: center;
+    font-size: 2.5rem;
+   
+
+}
+
+.card__subtitle {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+
+}
+
+
+.card__temp {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.cart__info{
+    padding-top: 20px;
+
+ 
+}
+
+.card__description {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    
+}
+
+.card__list {
+display: grid;
+gap: 8px;
+
+}
+
+.card__items {
+    font-size: 1rm;
+    font-weight: 200;
+}
+
+.card__footer {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.card__btn {
+    padding: 0.5em;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #644700;
+    color: #C29C8E;
+    box-shadow: 1px 1px 10px  rgb(1, 42, 117, 0.7);
+    transition: transform 100ms ease;
+}
+
+.cart__btn:hover {
+    transform: scale(1.05);
+  
+}
+
+
+
+.cart__btn:active {
+   transform: scale(1);
+   box-shadow: 1px 1px 5px rgb(1, 42, 117, 0.7);
+   
+  
+}
